@@ -1,0 +1,107 @@
+body {
+    margin: 0px;
+    background-color: #3b70a2;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #242424;
+    padding: 0px 20px;
+  }
+  
+  .logo img {
+    width: 150px;
+  }
+  
+  .text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+    color: #ffffff;
+    font-size: 20px;
+  }
+  
+  .cab {
+    margin: 0px 20px 0px 0px;
+  }
+
+  .faixa1{
+    display: flex;
+    flex-direction: row;    
+    
+    background-color: #174580;
+    color: white;
+
+    padding-top: 15px;
+  }
+
+  .dadosperfil{
+      padding-left: 2.5em;
+  }
+
+  .dados{
+      font-size: 35px;
+  }
+
+  .dados2{
+    font-size: 30px;
+}
+
+  .fotoperfil{
+      padding-left: 2.5em;
+  }
+
+  .faixa2{
+    background-color: #174580;
+    color: white;
+  }
+
+  .textaviso{
+    font-size: 30px;
+  }
+
+  .avisos{
+      background-color: white;
+      color: black;
+      font-size: 20px;
+  }
+  
+  .faixa3{
+    background-color: #174580;
+    color: white; 
+  }
+
+  .minhaagenda{
+      font-size: 30px;
+  }
+
+  thead{
+    background-color: #3B70A2;
+  }
+
+  table {
+    margin-top: 10px;
+}
+
+ tbody {
+     background-color: #DDDDDD;
+ }
+
+td {
+    text-align: left;
+    padding: 1em;
+    color: black;
+    font-weight: 600;
+}
+
+th {
+    height: 61.93px;
+    text-align: left;
+    padding: 1em;
+    color: #ffff;
+    font-weight: 800;
+} 
